@@ -77,21 +77,37 @@ img {
     max-width: 100%;
     height: auto;
 }
-  
-.painting {
-    width: 50%;
-    background-color: white;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    margin-bottom: 25px;
+
+.post {
+    background-color: #707070;
+    margin-bottom: 2%;
+    line-height: 150%;
+    border-color: black;
+    border: solid;
 }
   
-.painting-details {
-    text-align: center;
-    padding: 10px 20px;
-    font-weight: bold;
+.post-head {  
+    /* margin-bottom: 10px; */
+    padding: 2px;
 }
   
-  /* CARDS */
+.title {  
+    font-size: 150%;  
+    margin: 2px;
+}
+  
+.meta {
+    font-style: italic;
+    font-size: 80%;
+    margin: 2px;
+}
+  
+.post-text {
+    background-color: whitesmoke;
+    padding: 3px;
+}
+  
+/* CARDS */
 .card {
     margin: 20px;
     flex: 0 1 300px;

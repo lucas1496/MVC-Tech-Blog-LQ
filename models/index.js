@@ -10,7 +10,7 @@ User.hasMany(Comment, {
     foreignKey: 'user_id'
 });
 
-Post.belonsTo(User, {
+Post.belongsTo(User, {
     foreignKey: 'user_id'
 });
 
